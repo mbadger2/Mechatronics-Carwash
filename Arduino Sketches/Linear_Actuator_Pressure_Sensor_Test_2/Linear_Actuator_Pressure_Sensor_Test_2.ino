@@ -12,7 +12,7 @@ const int upperBound = 1020;
 const int lowerBound = 800;
 
 
-// Above Upper Bound (Highest Pressure)
+// Above Upper Bound (Lowest Pressure)
 //    - Max extend
 // Between Upper Bound & Neutral + Deadband
 //    - Adjustable extend
@@ -20,7 +20,7 @@ const int lowerBound = 800;
 //    - Stopped
 // Between Lower Bound & Neutral - Deadband
 //    - Adjustable retract
-// Below Bound (Lowest Pressure)
+// Below Bound (Highest Pressure)
 //    - Max retract
 
 void setup() {
